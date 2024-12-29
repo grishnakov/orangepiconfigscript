@@ -8,3 +8,5 @@ echo "default-on" >/sys/class/leds/green_led/trigger
 
 echo "none" >/sys/class/leds/blue_led/trigger
 echo "none" >/sys/class/leds/mmc0::/trigger
+
+sudo reboot
