@@ -2,6 +2,8 @@
 
 apt update && apt upgrade
 
+apt install net-tools
+
 echo "alias cpu='/etc/update-motd.d/30-armbian-sysinfo'" >>~/.bash_aliases
 
 echo "default-on" >/sys/class/leds/green_led/trigger
