@@ -13,3 +13,6 @@ chmod +x fixscript.sh
 ```bash
 ./fixscript.sh
 ```
+
+
+hello this is a test
